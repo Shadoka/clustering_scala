@@ -10,5 +10,6 @@ object Starter {
     val algo = new HierarchicalClustering
     val cluster = algo.cluster(points, 3)
     println(cluster.toString())
+    println("testtesttest")
   }
 }
